@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37254" started-at="2017-07-20T07:56:24Z" finished-at="2017-07-20T07:57:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37254" started-at="2017-07-20T07:56:24Z" finished-at="2017-07-20T07:57:02Z">
+      <class name="TestNGOnePack.ClassOne">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:TestNGOnePack.ClassOne@3fa247d1]" name="openbrowser" is-config="true" duration-ms="33408" started-at="2017-07-20T13:26:25Z" finished-at="2017-07-20T13:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method status="PASS" signature="testmethodone()[pri:0, instance:TestNGOnePack.ClassOne@3fa247d1]" name="testmethodone" duration-ms="24" started-at="2017-07-20T13:26:58Z" finished-at="2017-07-20T13:26:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testmethodone -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:TestNGOnePack.ClassOne@3fa247d1]" name="closebrowser" is-config="true" duration-ms="3395" started-at="2017-07-20T13:26:58Z" finished-at="2017-07-20T13:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestNGOnePack.ClassOne -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

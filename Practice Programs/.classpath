@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="AccessModifiers"/>
+	<classpathentry kind="src" path="LogicalOpera"/>
+	<classpathentry kind="src" path="Logical Operators With Access Modifiers"/>
+	<classpathentry kind="src" path="Arithmatic Operators"/>
+	<classpathentry kind="src" path="Arithmatic With AccessModifier"/>
+	<classpathentry kind="src" path="Do While Loops"/>
+	<classpathentry kind="src" path="DoWhileWithAccessModifier"/>
+	<classpathentry kind="src" path="Methods"/>
+	<classpathentry kind="src" path="Static Keyword"/>
+	<classpathentry kind="src" path="GetUserInput"/>
+	<classpathentry kind="src" path="JAVAIncrements"/>
+	<classpathentry kind="src" path="IncrementsWithAccessModifier"/>
+	<classpathentry kind="src" path="IncrementsWithMethod"/>
+	<classpathentry kind="src" path="ForLoop"/>
+	<classpathentry kind="src" path="ForLoopMethod"/>
+	<classpathentry kind="src" path="ArrayExamples"/>
+	<classpathentry kind="src" path="ArrayMethods"/>
+	<classpathentry kind="src" path="ArrayWithForLoop"/>
+	<classpathentry kind="src" path="ArrayDeclarations"/>
+	<classpathentry kind="src" path="ArrayWithWhileLoop"/>
+	<classpathentry kind="src" path="Arrays"/>
+	<classpathentry kind="src" path="Constructor"/>
+	<classpathentry kind="src" path="Classes"/>
+	<classpathentry kind="src" path="ClassesWithMethods"/>
+	<classpathentry kind="src" path="Polymorphism"/>
+	<classpathentry kind="src" path="PolymorphismOne"/>
+	<classpathentry kind="src" path="Method OverLoading"/>
+	<classpathentry kind="src" path="MethodOverriding"/>
+	<classpathentry kind="src" path="MethodOverLoading"/>
+	<classpathentry kind="src" path="OverLoading_Riding"/>
+	<classpathentry kind="src" path="Inheritance JAVA"/>
+	<classpathentry kind="src" path="Single Inheritance"/>
+	<classpathentry kind="src" path="List Itretors"/>
+	<classpathentry kind="src" path="Exception Handling"/>
+	<classpathentry kind="src" path="StaticKeyword"/>
+	<classpathentry kind="src" path="CreateTextFile"/>
+	<classpathentry kind="src" path="InstanceVariables"/>
+	<classpathentry kind="src" path="Local Variable"/>
+	<classpathentry kind="src" path="LogicalOperator With Instance Variable"/>
+	<classpathentry kind="src" path="LogicalOperator With StaticInstance Var"/>
+	<classpathentry kind="src" path="Logical Operator With Local variable"/>
+	<classpathentry kind="src" path="Logical Operator Local Var With Array"/>
+	<classpathentry kind="src" path="SingleInheritanceTest"/>
+	<classpathentry kind="src" path="SuperKeywords"/>
+	<classpathentry kind="src" path="JavaCollection"/>
+	<classpathentry kind="src" path="ListInterfaceInCollection"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User on Malaysia Page",
+        "description": "",
+        "id": "get-bank-details-from-web-page;user-on-malaysia-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8244382982,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on Malaysia page",
+            "match": {
+              "location": "MalaysiaPageDefinations.User_is_already_on_Malaysia_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31924234,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Title of Page",
+            "match": {
+              "location": "MalaysiaPageDefinations.Verify_Title_of_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14546414,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Scroll the page",
+            "match": {
+              "location": "MalaysiaPageDefinations.Scroll_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9288014759,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User will get the Malasiya Bank Names",
+            "match": {
+              "location": "MalaysiaPageDefinations.User_will_get_the_Malasiya_Bank_Names()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Get bank Details from Web Page",
+    "description": "",
+    "id": "get-bank-details-from-web-page",
+    "keyword": "Feature",
+    "uri": "D:/SeleniumWorkspace/BDDAssignment/src/main/java/Features/GetBanksDetails.feature"
+  }
+]

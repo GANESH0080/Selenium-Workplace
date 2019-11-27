@@ -1,0 +1,68 @@
+<Rater>
+	<SignIn>
+		<LoginName>#LoginName#</LoginName>
+		<Password>#Password#</Password>
+		<RequestVersion>#RequestVersion#</RequestVersion>
+		<RaterVersion>#RaterVersion#</RaterVersion>
+		<RulesVersion>#RulesVersion#</RulesVersion>
+		<ReferenceQuoteId>#ReferenceQuoteId#</ReferenceQuoteId>
+		<ShowPremium>#ShowPremium#</ShowPremium>
+		<ShowDeductibles>#ShowDeductibles#</ShowDeductibles>
+		<ShowDesc>#ShowDesc#</ShowDesc>
+		<ShowResult>#ShowResult#</ShowResult>
+		<ShowSteps>#ShowSteps#</ShowSteps>
+		<ShowVar>#ShowVar#</ShowVar>
+		<ShowRateBasis>#ShowRateBasis#</ShowRateBasis>
+		<ShowPremiumSteps>#ShowPremiumSteps#</ShowPremiumSteps>
+		<RulesState>#RulesState#</RulesState>
+		<RaterUrl>#RaterUrl#</RaterUrl>
+		<ProductCode>#ProductCode#</ProductCode>
+		<CoverHolder>#CoverHolder#</CoverHolder>
+	</SignIn>
+	<RateParameter>
+		<Parameter        code="State">#State#</Parameter>
+		<Parameter        code="County">#County#</Parameter>
+		<Parameter        code="InsuranceAmount">#InsuranceAmount#</Parameter>
+		<Parameter        code="ProtectionClass">#ProtectionClass#</Parameter>
+		<Parameter        code="Claims">
+			<NoofClaims>#NoofClaims#</NoofClaims>
+			<LossType>#LossType#</LossType>
+			<LossAmount>#LossAmount#</LossAmount>
+		</Parameter>
+		<Parameter        code="InsuredAge">#InsuredAge#</Parameter>
+		<Parameter        code="Deductible">
+			<Type>#DeductibleType#</Type>
+			<Amount>#DeductibleAmount#</Amount>
+		</Parameter>
+		<Parameter        code="ExtReplacementCost">#ExtReplacementCost#</Parameter>
+		<Parameter        code="BurglaryAlarm">
+			<Opted>#BurglaryAlarm#</Opted>
+			<Type>#BurglaryAlarmType#</Type>
+		</Parameter>
+		<Parameter        code="SmokeDetectors">
+			<Opted>#SmokeDetectors#</Opted>
+		</Parameter>
+		<Parameter        code="Deadbolt">
+			<Opted>#Deadbolt#</Opted>
+		</Parameter>
+		<Parameter        code="HomeAge">#HomeAge#</Parameter>
+		<Parameter        code="ContructionType">#ContructionType#</Parameter>
+		<Parameter        code="PersonalLiability">#PersonalLiability#</Parameter>
+		<Parameter        code="HeatingDevice">
+			<Opted>#HeatingDevice#</Opted>
+			<Type>#HeatingDeviceType#</Type>
+		</Parameter>
+		<Parameter        code="OtherStructure">#OtherStructure#</Parameter>
+		<Parameter        code="PersonalProperty">#PersonalProperty#</Parameter>
+		<Parameter        code="WindCoverage">
+			<Opted>#WindCoverage#</Opted>
+			<Limit>#WindCoverageLimit#</Limit>
+		</Parameter>
+		<Parameter        code="UserInfo">
+			<Name>Ganesh Salunkhe</Name>
+			<Address>#Address#</Address>
+		</Parameter>
+		<Parameter />
+		<Parameter        code="WaterBackup">#WaterBackup#</Parameter>
+	</RateParameter>
+</Rater>

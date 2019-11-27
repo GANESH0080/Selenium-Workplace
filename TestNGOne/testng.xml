@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite guice-stage="DEVELOPMENT" name="Default suite">
+<test verbose="2" name="Default test">
+<test name="Test One">
+<Rater>
+<SignIn>
+    <LoginName>admin</LoginName>
+    <Password>admin</Password>
+    <RequestVersion>1.0.3.1</RequestVersion>
+    <RaterVersion>1.0.3.1</RaterVersion>
+    <RulesVersion>1.0.3.1</RulesVersion>
+    <ReferenceQuoteId>1913</ReferenceQuoteId>
+    <ShowPremium>Y</ShowPremium>
+    <ShowDeductibles>N</ShowDeductibles>
+    <ShowDesc>Y</ShowDesc>
+    <ShowResult>Y</ShowResult>
+    <ShowSteps>N</ShowSteps>
+    <ShowVar>N</ShowVar>
+    <ShowRateBasis>N</ShowRateBasis>
+    <ShowPremiumSteps>N</ShowPremiumSteps>
+    <RulesState>NC</RulesState>
+    <RaterUrl>http://cogitate.us:8069/api/rater</RaterUrl>
+  </SignIn>
+  <RateParameter>
+    <Parameter code="State">NC</Parameter>
+    <Parameter code="County">Cumberland</Parameter>
+    <Parameter code="InsuranceAmount">399887</Parameter>
+    <Parameter code="ProtectionClass">10</Parameter>
+    <Parameter code="Claims">
+      <NoofClaims>1</NoofClaims>
+      <LossType>Fire and lightning</LossType>
+      <LossAmount>3435</LossAmount>
+    </Parameter>
+    <Parameter code="InsuredAge">18</Parameter>
+    <Parameter code="Deductible">
+      <Type>RCV</Type>
+      <Amount>1500</Amount>
+    </Parameter>
+    <Parameter code="ExtReplacementCost">0</Parameter>
+    <Parameter code="BurglaryAlarm">
+      <Opted>N</Opted>
+      <Type>none</Type>
+    </Parameter>
+    <Parameter code="SmokeDetectors">
+      <Opted>Y</Opted>
+    </Parameter>
+    <Parameter code="Deadbolt">
+      <Opted>Y</Opted>
+    </Parameter>
+    <Parameter code="HomeAge">2010</Parameter>
+    <Parameter code="ContructionType">Frame/Stucco</Parameter>
+    <Parameter code="PersonalLiability">100000</Parameter>
+    <Parameter code="HeatingDevice">
+      <Opted>N</Opted>
+      <Type />
+    </Parameter>
+    <Parameter code="OtherStructure">10</Parameter>
+    <Parameter code="PersonalProperty">50</Parameter>
+    <Parameter code="WindCoverage">
+      <Opted>Y</Opted>
+      <Limit>0</Limit>
+    </Parameter>
+    <Parameter code="UserInfo">
+      <Name>elon musk</Name>
+      <Address>214 Hillside Ave, Fayetteville, NC 28301, USA</Address>
+    </Parameter>
+    <Parameter />
+  </RateParameter>
+</Rater>
+</test> <!-- Default test -->
+</suite> <!-- Default suite -->

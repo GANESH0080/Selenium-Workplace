@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.884909">
+<testcase classname="PPE Login Feature" name="PPE Login Scenario" time="13.884909">
+<system-out><![CDATA[Given Agent Is Already On Login Page........................................passed
+When Tittle Of The Login Page Is Login......................................passed
+Then Agent Entering Username and Password...................................passed
+Then Click on Login Button..................................................passed
+When URL Of The LoggedIn Page...............................................passed
+Then Click On GuidLines Link................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

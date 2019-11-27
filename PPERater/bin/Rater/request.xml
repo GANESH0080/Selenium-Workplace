@@ -1,0 +1,69 @@
+<Rater>
+	<SignIn>
+		<LoginName>admin</LoginName>
+		<Password>admin</Password>
+		<RequestVersion>1.0.3.2</RequestVersion>
+		<RaterVersion>1.0.3.2</RaterVersion>
+		<RulesVersion>1.0.3.2</RulesVersion>
+		<ReferenceQuoteId>600</ReferenceQuoteId>
+		<ShowPremium>Y</ShowPremium>
+		<ShowDeductibles>N</ShowDeductibles>
+		<ShowDesc>Y</ShowDesc>
+		<ShowResult>Y</ShowResult>
+		<ShowSteps>N</ShowSteps>
+		<ShowVar>N</ShowVar>
+		<ShowRateBasis>N</ShowRateBasis>
+		<ShowPremiumSteps>N</ShowPremiumSteps>
+		<RulesState>NC</RulesState>
+		<RaterUrl>http://10.10.10.33/rater-ppe/api/rater</RaterUrl>
+		<ProductCode>HO3</ProductCode>
+		<CoverHolder>IH</CoverHolder>
+	</SignIn>
+	<RateParameter>
+		<Parameter        code="State">GA</Parameter>
+		<Parameter        code="County">Lowndes</Parameter>
+		<Parameter        code="InsuranceAmount">211688</Parameter>
+		<Parameter        code="ProtectionClass">4</Parameter>
+		<Parameter        code="Claims">
+			<NoofClaims>3</NoofClaims>
+			<LossType>Fire and lightning</LossType>
+			<LossAmount>15484</LossAmount>
+		</Parameter>
+		<Parameter        code="InsuredAge">18</Parameter>
+		<Parameter        code="Deductible">
+			<Type>RCV</Type>
+			<Amount>1500</Amount>
+		</Parameter>
+		<Parameter        code="ExtReplacementCost">25</Parameter>
+		<Parameter        code="BurglaryAlarm">
+			<Opted>Y</Opted>
+			<Type>central</Type>
+		</Parameter>
+		<Parameter        code="SmokeDetectors">
+			<Opted>Y</Opted>
+		</Parameter>
+		<Parameter        code="Deadbolt">
+			<Opted>Y</Opted>
+		</Parameter>
+		<Parameter        code="HomeAge">1980</Parameter>
+		<Parameter        code="ContructionType">Masonry Veneer</Parameter>
+		<Parameter        code="PersonalLiability">250000</Parameter>
+		<Parameter        code="HeatingDevice">
+			<Opted>Y</Opted>
+			<Type>Coal Stove</Type>
+		</Parameter>
+		<Parameter        code="OtherStructure">10</Parameter>
+		<Parameter        code="PersonalProperty">40</Parameter>
+		<Parameter        code="WindCoverage">
+			<Opted>Y</Opted>
+			<Limit>1</Limit>
+		</Parameter>
+		<Parameter        code="UserInfo">
+			<Name>Greme Smith</Name>
+			<Address>2627 Riverside Rd, Valdosta, GA 31601, USA</Address>
+		</Parameter>
+		<Parameter />
+		<Parameter        code="WaterBackup">5000</Parameter>
+	</RateParameter>
+</Rater>
+

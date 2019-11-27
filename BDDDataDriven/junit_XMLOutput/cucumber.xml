@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="31.376625">
+<testcase classname="Login in PPE application" name="PPE login" time="31.376625">
+<failure message="org.junit.ComparisonFailure: expected:&lt;...ogitate.us/PPE.Test/[?Message=Invalid%20Username%20or%20Password%20entered!]&gt; but was:&lt;...ogitate.us/PPE.Test/[Home]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at StepsDef.LoginStepDefination.URL_Of_The_LoggedIn_Page(LoginStepDefination.java:48)&#13;&#10;&#9;at ✽.When URL Of LoggedIn Page(D:/SeleniumWorkspace/BDDDataDriven/src/main/java/Feature/Login.feature:7)&#13;&#10;"><![CDATA[Given Agent Already On Login Page...........................................passed
+When Tittle Of Login Page Is Login..........................................passed
+Then Agent Entering "ih.chelms" and "10#Hammer".............................passed
+Then Click Login Button.....................................................passed
+When URL Of LoggedIn Page...................................................failed
+Then Click GuidLines Link...................................................skipped
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<...ogitate.us/PPE.Test/[?Message=Invalid%20Username%20or%20Password%20entered!]> but was:<...ogitate.us/PPE.Test/[Home]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at StepsDef.LoginStepDefination.URL_Of_The_LoggedIn_Page(LoginStepDefination.java:48)
+	at ✽.When URL Of LoggedIn Page(D:/SeleniumWorkspace/BDDDataDriven/src/main/java/Feature/Login.feature:7)
+]]></failure>
+</testcase>
+</testsuite>

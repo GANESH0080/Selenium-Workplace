@@ -1,0 +1,53 @@
+<Rater>
+  <SignIn>
+    <LoginName>#LoginName#</LoginName>
+    <Password>#Password#</Password>
+    <RequestVersion>#RequestVersion#</RequestVersion>
+    <RaterVersion>#RaterVersion#</RaterVersion>
+    <RulesVersion>#RulesVersion#</RulesVersion>
+    <ReferenceQuoteId>#ReferenceQuoteId#</ReferenceQuoteId>
+    <ShowPremium>#ShowPremium#</ShowPremium>
+    <ShowDeductibles>#ShowDeductibles#</ShowDeductibles>
+    <ShowDesc>#ShowDesc#</ShowDesc>
+    <ShowResult>#ShowResult#</ShowResult>
+    <ShowSteps>#ShowSteps#</ShowSteps>
+    <ShowVar>#ShowVar#</ShowVar>
+    <ShowRateBasis>#ShowRateBasis#</ShowRateBasis>
+    <ShowPremiumSteps>#ShowPremiumSteps#</ShowPremiumSteps>
+    <RulesState>#RulesState#</RulesState>
+    <RaterUrl>http://test.cogitate.us/newrater/API/Rater</RaterUrl>
+    <ProductCode>MH</ProductCode>
+    <CoverHolder>BCIH</CoverHolder>
+   </SignIn>
+  <RateParameter>
+    <Parameter code="UnitType">#UnitType#</Parameter>
+    <Parameter code="InsureAge">#InsureAge#</Parameter>
+    <Parameter code="Unit">
+      <unit id="1">
+        <Zipcode>#Zipcode#</Zipcode>
+        <County>#County#</County>
+        <HomeAge>#HomeAge#</HomeAge>
+        <MHValue>#MHValue#</MHValue>
+        <InPark>#InPark#</InPark>
+        <Territory>#Territory#</Territory>
+      </unit>
+
+    </Parameter>
+    <Parameter code="Deductible">#Deductible#</Parameter>
+    <Parameter code="SupplemetalHeating">#SupplemetalHeating#</Parameter>
+    <Parameter code="FloodEndorsement">#FloodEndorsement#</Parameter>
+    <Parameter code="VendorSingle">#VendorSingle#</Parameter>
+    <Parameter code="CPL">#CPL#</Parameter>
+    <Parameter code="RenDiscount">#RenDiscount#</Parameter>
+    <Parameter code="ATDiscount">#ATDiscount#</Parameter>
+    <Parameter code="AODiscount">#AODiscount#</Parameter>
+    <Parameter code="PDDiscount">#PDDiscount#</Parameter>
+    <Parameter code="NewMHDiscount">#NewMHDiscount#</Parameter>
+    <Parameter code="EPDiscount">#EPDiscount#</Parameter>
+    <Parameter code="APE">#APE#</Parameter>
+    <Parameter code="AAS">#AAS#</Parameter>
+    <Parameter code="PE">#PE#</Parameter>
+    <Parameter code="AS">#AS#</Parameter>
+  </RateParameter>
+</Rater>
+
