@@ -19,7 +19,7 @@ public class BasicOfENUM {
 	public static void main(String[] args) {
 		// How can you know that APPLE is string not integer because you may compare your own int / string with APPLE
 		// That why instead of working this constant you have to use ENUM
-		if(MobileCompanyRange.APPLE = "Apple";
+		if(MobileCompanyRange.APPLE) = "Apple";
 	}
 
 }
