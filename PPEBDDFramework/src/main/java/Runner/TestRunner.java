@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 // Different CucumberOptions are : dryRun,Features,Glue,Tags,monoChrome,Format,Strict
-@CucumberOptions(features="D:\\SeleniumWorkspace\\PPEBDDFramework\\src\\main\\java\\FeatureFiles\\Login.feature",glue={"Steps"},
+@CucumberOptions(features="D:\\SeleniumWorkspace\\Selenium-Workplace\\PPEBDDFramework\\src\\main\\java\\FeatureFiles\\Login.feature",glue={"Steps"},
 format = {"pretty", "html:target/cucumber","json:json_Output/cucumber.json","junit:junit_XMLOutput/cucumber.xml"},dryRun=false,monochrome = true,strict = true)
 
 public class TestRunner {
