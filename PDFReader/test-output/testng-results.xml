@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4365" started-at="2019-11-21T14:10:40Z" finished-at="2019-11-21T14:10:44Z">
+  <suite name="Default suite" duration-ms="913" started-at="2019-11-27T10:47:11Z" finished-at="2019-11-27T10:47:12Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4365" started-at="2019-11-21T14:10:40Z" finished-at="2019-11-21T14:10:44Z">
+    <test name="Default test" duration-ms="913" started-at="2019-11-27T10:47:11Z" finished-at="2019-11-27T10:47:12Z">
       <class name="PDFReaderTest">
-        <test-method status="PASS" signature="ReadPDF()[pri:0, instance:PDFReaderTest@506e6d5e]" name="ReadPDF" duration-ms="4285" started-at="2019-11-21T19:40:40Z" finished-at="2019-11-21T19:40:44Z">
+        <test-method status="PASS" signature="ReadPDF()[pri:0, instance:PDFReaderTest@506e6d5e]" name="ReadPDF" duration-ms="866" started-at="2019-11-27T16:17:11Z" finished-at="2019-11-27T16:17:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReadPDF -->

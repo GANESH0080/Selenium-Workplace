@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9048413522,
+              "duration": 11665993300,
               "status": "passed"
             },
             "line": 6,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 14622926,
+              "duration": 17311200,
               "status": "passed"
             },
             "line": 7,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 346508107,
+              "duration": 322291800,
               "status": "passed"
             },
             "line": 8,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 4368916471,
+              "duration": 1468008300,
               "status": "passed"
             },
             "line": 9,
@@ -60,8 +60,9 @@
           },
           {
             "result": {
-              "duration": 10310503,
-              "status": "passed"
+              "duration": 8872900,
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c...ogitate.us/PPE.Test/[?Message\u003dInvalid%20Username%20or%20Password%20entered!]\u003e but was:\u003c...ogitate.us/PPE.Test/[Home]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:115)\r\n\tat org.junit.Assert.assertEquals(Assert.java:144)\r\n\tat StepsDefinations.LoginStepDef.URL_Of_The_LoggedIn_Page(LoginStepDef.java:51)\r\n\tat ✽.When URL Of The LoggedIn Page(D:/SeleniumWorkspace/Selenium-Workplace/PPEBDDDrivenOne/src/main/java/Features/Login.feature:10)\r\n",
+              "status": "failed"
             },
             "line": 10,
             "name": "URL Of The LoggedIn Page",
@@ -72,8 +73,7 @@
           },
           {
             "result": {
-              "duration": 96137542,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 11,
             "name": "Click On GuidLines Link",
@@ -95,6 +95,6 @@
     "description": "",
     "id": "ppe-login-feature",
     "keyword": "Feature",
-    "uri": "D:/SeleniumWorkspace/PPEDataDrivenOne/src/main/java/Features/Login.feature"
+    "uri": "D:/SeleniumWorkspace/Selenium-Workplace/PPEBDDDrivenOne/src/main/java/Features/Login.feature"
   }
 ]
